@@ -9,10 +9,19 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "eslint": "8.46.0",
-    "eslint-config-next": "13.4.13",
+    "@stitches/react": "^1.2.8",
+    "axios": "^1.6.1",
+    "keen-slider": "^6.8.6",
     "next": "13.4.13",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "stripe": "^12.18.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.4.9",
+    "@types/react": "^18.2.19",
+    "eslint": "8.46.0",
+    "eslint-config-next": "13.4.13",
+    "typescript": "^5.1.6"
   }
 }
